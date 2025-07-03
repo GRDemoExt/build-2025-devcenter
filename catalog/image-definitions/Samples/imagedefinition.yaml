@@ -28,6 +28,11 @@ tasks:
     parameters:
       package:  Microsoft.VisualStudioCode
 
+  - name: ~/winget
+    description: Install Visual Studio Code Insiders
+    parameters:
+      package:  Microsoft.VisualStudioCode.Insiders
+
   - name: ~/powershell
     parameters:
       command: |
