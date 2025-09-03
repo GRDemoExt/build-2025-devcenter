@@ -12,31 +12,43 @@ tasks:
     description: Install AZD
     parameters:
       package:  Microsoft.Azd
+      scope: machine
+      silent: true      
 
   - name: ~/winget
     description: Install WindowsTerminalPreview
     parameters:
       package:  Microsoft.WindowsTerminal.Preview
+      scope: machine
+      silent: true
 
   - name: ~/winget
     description: Install Edit
     parameters:
       package:  Microsoft.Edit
+      scope: machine
+      silent: true
 
   - name: ~/winget
     description: Install Visual Studio Code
     parameters:
       package:  Microsoft.VisualStudioCode
+      scope: machine
+      silent: true
 
   - name: ~/winget
     description: Install Visual Studio Code Insiders
     parameters:
       package:  Microsoft.VisualStudioCode.Insiders
+      scope: machine
+      silent: true
 
   - name: ~/winget
     description: Install Python version 3.13
     parameters:
       package:  Python.Python.3.13
+      scope: machine
+      silent: true
 
   - name: ~/powershell
     parameters:
