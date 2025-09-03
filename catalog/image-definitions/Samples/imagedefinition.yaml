@@ -33,12 +33,11 @@ tasks:
     parameters:
       package:  Microsoft.VisualStudioCode.Insiders
 
-  - name: ~/powershell
+  - name: ~/winget
+    description: Install Python version 3.13
     parameters:
-      runAsSystem: true
-      inline: |
-        winget install --id Python.Python.3.13 --scope machine --silent --accept-package-agreements --accept-source-agreements
-        
+      package:  Python.Python.3.13
+
   - name: ~/powershell
     parameters:
       command: |
